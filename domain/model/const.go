@@ -33,7 +33,7 @@ var (
 )
 
 func (e Season) String() string {
-	name := SeasonByValue[s]
+	name := SeasonByValue[e]
 	if name == "" {
 		name = fmt.Sprintf("Unknown enum value Season(%d)", e)
 	}
